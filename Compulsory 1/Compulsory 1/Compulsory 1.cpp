@@ -34,15 +34,13 @@ int main() {
 
     while (true) {
         // fibonacci
-        while (true)
-        {
+        while (true) {
             std::cout << "Enter the position of the Fibonacci number you want to find: ";
             std::cin >> n;
 
             if (std::cin) {
                 uint32_t result = fibonacci(n);
-                if (result || n == 0)
-                {
+                if (result || n == 0) {
                     std::cout << "The Fibonacci number at position " << n << " is: " << result << std::endl;
                     break;
                 }
@@ -54,15 +52,13 @@ int main() {
         }
 
         // factorial
-        while (true)
-        {
+        while (true) {
             std::cout << "Enter the number for which you want to find the factorial: ";
             std::cin >> n;
 
             if (std::cin) {
                 uintmax_t result = factorial(n);
-                if (result || n == 0)
-                {
+                if (result || n == 0) {
                     std::cout << "The factorial of " << n << " is: " << result << std::endl;
                     break;
                 }
